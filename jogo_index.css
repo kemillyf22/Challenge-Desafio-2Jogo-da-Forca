@@ -1,0 +1,73 @@
+*{  margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  .titulo {
+    padding-top: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    color:aquamarine; text-shadow: rgb(198, 33, 33) 0.2em 0.1em 0.2em
+  }
+
+  .text-center{
+    text-align: center;
+  }
+  
+  .letras {
+    margin-top: 100px;
+    margin: 60px;
+    float: right;
+    color: aqua;
+    font-size: 1.2em;
+  }
+  
+  .principal {
+    margin:0;
+    padding:0;
+    height: 100%;
+    background-color: seagreen;
+  }
+
+  .reiniciar {
+    width: 7em;
+    margin: 14px;
+    font-size: 22px;
+    color: rgb(239, 238, 238);
+    background-color: firebrick;
+  }
+  
+  .desenvolvido {
+    padding: 20px;
+    text-align: center;
+    color: aquamarine;
+  }
+
+  #tentativas {
+      color: red;
+  }
+
+  #keyboard {
+      color: red;
+      font-size: 22px;
+  }
+
+  #erros {
+      color: yellow;
+  }
+
+  .font-weight-bold {
+      font-size: 40px;
+      color: yellow;
+  }
+
+  .btn {
+      font-size: 20px;
+      color: maroon;
+      width: 7%;
+      border-radius: 50%;
+      border: 2px solid #000000
+  }

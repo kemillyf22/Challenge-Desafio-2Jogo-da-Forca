@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="./images/forca red_icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="jogo_index.css">
+        <title>Challenge - Jogo da Forca</title>
+    </head>
+
+    <body class="principal">
+        <div class="container">
+            <h1 class="titulo">Jogo da Forca</h1>
+
+            <div class="letras">Letras Erradas: <span id="erros"> 0 </span> de <span id="tentativas"></span></div>
+            <div class="text-center">
+                <img id="jogoImage" src="madeira.png" alt="">
+                <p class="font-weight-bold text-warning" id="palavraVerificada"></p>
+                <div class="font-weigght-bold text-warning" id="keyboard"></div>
+                <button class="reiniciar" onclick="reset()">Reiniciar</button>
+            </div>   
+        </div>
+
+        <footer class="desenvolvido">
+            <span id="social">&copy; Desenvolvido por Camila Silva - 2022</span>
+        </footer>
+
+        <script src="jogo_jogo.js"></script>
+
+    </body>
+</html>
